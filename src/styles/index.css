@@ -1,4 +1,3 @@
-
 /* 
 
     You can write your own styles here...
@@ -10,3 +9,19 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.footer {
+  font-weight: bolder;
+  align-content: center;
+  color: white;
+  height: 70px;
+}
+
+.cardstyle {
+  justify-content: center;
+  margin-left: 100px;
+  margin-right: 100px;
+  flex-wrap:wrap;
+}
+.title{
+    font-weight:400;
+}
