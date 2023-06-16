@@ -12,13 +12,16 @@ const Home = () => {
   return (
     <>
       <Navbar />
+	  < div className="divPagina">
       <Jumbotron />
-	  	<div className="d-flex cardstyle" >
+			<div className="row mycard inline-flex">
 		  {/* style={{width: 18rem;margin-left: 60px;margin-right: 5px;}} */}
-			<Card />
-			<Card />
-			<Card />
-			<Card />  
+			<div className="col-lg-3 col-sm-1"><Card /></div>
+			<div className="col-lg-3 col-sm-1"><Card /></div>
+			<div className="col-lg-3 col-sm-1"><Card /></div>
+			<div className="col-lg-3 col-sm-1"><Card /></div>
+			
+			</div>
 		</div>
 		<Footer/>
     </>
